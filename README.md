@@ -15,7 +15,7 @@ Aplikacja wymaga:
 Testy uruchamiane są za pomocą polecenia
 
 ```bash
-npm run test --base_url=https://www.easysend.pl --selenium_url=http://selenium:4444/wd/hub
+npm run test --base_url=https://www....pl --selenium_url=http://selenium:4444/wd/hub
 ```
 
 Za pomocą parametrów `base_url` i `selenium_url` można ustawić adres strony do testowania oraz adres serwera selenium. Oba parametry są opcjonalne a ich domyślne wartości podane są powyżej.
