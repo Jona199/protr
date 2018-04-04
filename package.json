@@ -1,0 +1,24 @@
+{
+  "name": "easysend-test",
+  "version": "0.0.0",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-load-plugins": "~0.10.0",
+    "gulp-protractor": "~1.0.0",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "q": "^1.4.1",
+    "request": "^2.75.0",
+    "wrench": "~1.5.8"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "test": "npm run gulp protractor"
+  },
+  "engines": {
+    "node": ">=5.1.0"
+  },
+  "devDependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2"
+  }
+}
